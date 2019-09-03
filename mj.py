@@ -1,30 +1,42 @@
 # FIRST SENTENCE
+#Shoutout to Francis my classmate for teaching me the wile loop to handle improper user input
 noun1 = input("Enter a noun(City in the Midwest USA): ")
 while len(noun1) == 0:
-    noun1 = input("Enter a noun(place) again: ")
+    noun1 = input("Enter again: ")
     
 # SECOND SENTENCE 
 adjective1 = input("Enter an adjective: ")
 while len(adjective1) == 0:
-    adjective1 = input("Enter an adjective again: ")
+    adjective1 = input("Enter again: ")
 
 adjective2 = input("Enter an adjective: ")
 while len(adjective2) == 0:
-    adjective2 = input("Enter an adjective again: ")
+    adjective2 = input("Enter again: ")
 
 conjection1 = input("Enter a conjunction: ")
-while len(noun1) == 0:
-    noun1 = input("Enter a noun(City in the Midwest USA) again: ")
+while len(conjection1) == 0:
+    conjunction1 = input("Enter again: ")
 
 adjective3 = input("Enter an adjective: ")
-while len(noun1) == 0:
-    noun1 = input("Enter a noun(place) again: ")
+while len(adjective3) == 0:
+    adjective3 = input("Enter again: ")
 
 # THIRD SENTENCE 
 adjective4 = input("Enter an adjective: ")
+while len(adjective4) == 0:
+    adjective4 = input("Enter again: ")
+
 adjective5 = input("Enter an adjective: ")
+while len(adjective5) == 0:
+    adjective5 = input("Enter again: ")
+
 adverb1 = input("Enter an adverb: ")
+while len(adverb1) == 0:
+    adverb1 = input("Enter again: ")
+
 verb1 = input("Enter a verb: ")
+while len(verb1) == 0:
+    verb1 = input("Enter again: ")
 
 #FOURTH SENTENCE 
 pronoun1 = input("Enter a pronoun: ")
