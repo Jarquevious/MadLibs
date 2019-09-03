@@ -2,29 +2,29 @@
 noun1 = input("Enter a noun: ")
 
 # SECOND SENTENCE 
-adjective1 = input("Enter a color: ")
-adjective2 = input("Enter a color: ")
-conjection1 = input("Enter a color: ")
-adjective3 = input("Enter a color: ")
+adjective1 = input("Enter an adjective: ")
+adjective2 = input("Enter an adjective: ")
+conjection1 = input("Enter a conjection: ")
+adjective3 = input("Enter an adjective: ")
 
 # THIRD SENTENCE 
-adjective4 = input("Enter a color: ")
-adjective5 = input("Enter a color: ")
-adverb1 = input("Enter a color: ")
-verb1 = input("Enter a color: ")
+adjective4 = input("Enter an adjective: ")
+adjective5 = input("Enter an adjective: ")
+adverb1 = input("Enter an adverb: ")
+verb1 = input("Enter a verb: ")
 
 #FOURTH SENTENCE 
-pronoun1 = input("Enter a color: ")
-adjective6 = input("Enter a color: ")
-adjective7 = input("Enter a color: ")
-adjective8 = input("Enter a color: ")
+pronoun1 = input("Enter a pronoun: ")
+adjective6 = input("Enter an adjective: ")
+adjective7 = input("Enter an adjective: ")
+adjective8 = input("Enter an adjective: ")
 
 # FIFTH SENTENCE 
-adjective9 = input("Enter a color: ")
+adjective9 = input("Enter an adjective: ")
 
 # SIXTH SENTENCE
-noun2 = input("Enter a color: ")
-adjective10 = input("Enter a color: ")
+noun2 = input("Enter a noun: ")
+adjective10 = input("Enter an adjective: ")
 
 
 
