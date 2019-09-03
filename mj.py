@@ -1,5 +1,5 @@
 # FIRST SENTENCE
-#Shoutout to Francis my classmate for teaching me the wile loop to handle improper user input
+#Shoutout to Francis my classmate for teaching me the while loop to handle improper user input
 noun1 = input("Enter a noun(City in the Midwest USA): ")
 while len(noun1) == 0:
     noun1 = input("Enter again: ")
@@ -40,16 +40,34 @@ while len(verb1) == 0:
 
 #FOURTH SENTENCE 
 pronoun1 = input("Enter a pronoun: ")
+while len(pronoun1) == 0:
+    pronoun1 = input("Enter again: ")
+
 adjective6 = input("Enter an adjective: ")
+while len(adjective6) == 0:
+    adjective6 = input("Enter again: ")
+
 adjective7 = input("Enter an adjective: ")
+while len(adjective7) == 0:
+    adjective7 = input("Enter again: ")
+
 adjective8 = input("Enter an adjective: ")
+while len(adjective8) == 0:
+    adjective8 = input("Enter again: ")
 
 # FIFTH SENTENCE 
 adjective9 = input("Enter an adjective: ")
+while len(adjective9) == 0:
+    adjective9 = input("Enter again: ")
 
 # SIXTH SENTENCE
 noun2 = input("Enter a noun(a thing): ")
+while len(noun2) == 0:
+    noun2 = input("Enter again: ")
+
 adjective10 = input("Enter an adjective: ")
+while len(adjective10) == 0:
+    adjective10 = input("Enter again: ")
 
 
 
