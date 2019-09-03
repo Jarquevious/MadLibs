@@ -4,7 +4,7 @@ noun1 = input("Enter a noun(place): ")
 # SECOND SENTENCE 
 adjective1 = input("Enter an adjective: ")
 adjective2 = input("Enter an adjective: ")
-conjection1 = input("Enter a conjection: ")
+conjection1 = input("Enter a conjunction: ")
 adjective3 = input("Enter an adjective: ")
 
 # THIRD SENTENCE 
