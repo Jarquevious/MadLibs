@@ -1,11 +1,24 @@
 # FIRST SENTENCE
-noun1 = input("Enter a noun(place): ")
-
+noun1 = input("Enter a noun(City in the Midwest USA): ")
+while len(noun1) == 0:
+    noun1 = input("Enter a noun(place) again: ")
+    
 # SECOND SENTENCE 
 adjective1 = input("Enter an adjective: ")
+while len(adjective1) == 0:
+    adjective1 = input("Enter an adjective again: ")
+
 adjective2 = input("Enter an adjective: ")
+while len(adjective2) == 0:
+    adjective2 = input("Enter an adjective again: ")
+
 conjection1 = input("Enter a conjunction: ")
+while len(noun1) == 0:
+    noun1 = input("Enter a noun(City in the Midwest USA) again: ")
+
 adjective3 = input("Enter an adjective: ")
+while len(noun1) == 0:
+    noun1 = input("Enter a noun(place) again: ")
 
 # THIRD SENTENCE 
 adjective4 = input("Enter an adjective: ")
