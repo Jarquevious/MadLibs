@@ -1,7 +1,6 @@
 # FIRST SENTENCE
 #Shoutout to Francis my classmate for teaching me the while loop to handle improper user input
-from colorama import init, Fore, Back, Style
-
+from termcolor import colored
 noun1 = input("Enter a noun(City in the Midwest USA): ")
 while len(noun1) == 0:
     noun1 = input("Enter again: ")
@@ -76,13 +75,12 @@ while len(adjective10) == 0:
 
 #OUTPUT FUNCTION
 def output():
-    print(Back.RED)
-    print("Micheal Jackson was born in " + Back.GREEN + noun1 + Fore.WHITE + "USA in 1958.") 
-    print("He was a" + Fore.GREEN + adjective1 + Fore.WHITE + "performer with a" + Fore.GREEN + adjective2 + Fore.WHITE + "voice" + Fore.GREEN + conjection1 + Fore.WHITE + "a" + Fore.GREEN + adjective3 + Fore.WHITE + "personality.")
-    print("Although he was a (" + adjective4 + ") person, his family and friends thought he was (" + adjective5 + ") for (" + adverb1 + ") (" + verb1 + ") when he interacted with people.")
-    print("(" + pronoun1 + ") became famous for creating (" + adjective6 + ") music, (" + adjective7 + ") collaborations, and (" + adjective8 + ") love for his fans. In 1984, Jackson was")
-    print("(" + adjective9 + ") onto the Hollywood Walk of Fame.")
-    print("After his death in 2009, Jackson’s (" + noun2 + ") was released for his fans, becoming the most ((" + adjective10 + ") documentary or concert film ever.")
+    print(f"Micheal Jackson was born in {colored(noun1,'red')} USA in 1958.") 
+    print(f"He was a {colored(adjective1, 'red')} performer with a {colored(adjective2, 'red')} voice {colored(conjection1, 'red')} a {colored(adjective3, 'red')} personality.")
+    print(f"Although he was a {colored(adjective4, 'red')} person, his family and friends thought he was {colored(adjective5, 'red')} for {colored(adverb1, 'red')}, {colored(verb1, 'red')} when he interacted with fans.")
+    print(f"{colored(pronoun1, 'red')} became famous for creating {colored(adjective6, 'red')} music, {colored(adjective7, 'red')} collaborations, and {colored(adjective8, 'red')} love for his fans. In 1984, Jackson was")
+    print(f"{colored(adjective9, 'red')} onto the Hollywood Walk of Fame.")
+    print(f"After his death in 2009, Jackson’s {colored(noun2, 'red')} was released for his fans, becoming the most {colored(adjective10, 'red')} documentary or concert film ever.")
 
 output() 
 
